@@ -13,6 +13,7 @@ import { ChooseComponent } from './components/choose/choose.component';
 import { NewsComponent } from './components/news/news.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { LoaderComponent } from './components/loader/loader.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { FooterComponent } from './components/footer/footer.component';
     ChooseComponent,
     NewsComponent,
     ContactComponent,
-    FooterComponent
+    FooterComponent,
+    LoaderComponent
   ],
   imports: [
     BrowserModule,
