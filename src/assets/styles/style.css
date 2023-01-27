@@ -1,9 +1,9 @@
-/*--------------------------------------------------------------------- 
-File Name: style.css 
+/*---------------------------------------------------------------------
+File Name: style.css
 ---------------------------------------------------------------------*/
 
 
-/*--------------------------------------------------------------------- 
+/*---------------------------------------------------------------------
 import Fonts -
 --------------------------------------------------------------------*/
 
@@ -11,13 +11,13 @@ import Fonts -
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900&display=swap');
 
-/*****---------------------------------------- 1) 
+/*****---------------------------------------- 1)
  2) font-family: 'Poppins', sans-serif;
  ----------------------------------------*****/
 
 
-/*--------------------------------------------------------------------- 
-import Files 
+/*---------------------------------------------------------------------
+import Files
 ---------------------------------------------------------------------*/
 
 @import url(normalize.css);
@@ -25,8 +25,8 @@ import Files
 @import url(font-awesome.min.css);
 @import url(nice-select.css);
 
-/*--------------------------------------------------------------------- 
-basic 
+/*---------------------------------------------------------------------
+basic
 ---------------------------------------------------------------------*/
 
 * {
@@ -337,7 +337,7 @@ button {
     text-transform: uppercase;
 }
 .logo a span {
-    color: #6b7908;  
+    color: #6b7908;
 }
 
 .navbar-area {
@@ -479,7 +479,7 @@ ul.email li i {
      width: 100%;
 }
 #banner1 .carousel-item img {
-    width: 100%; 
+    width: 100%;
     height: 100vh;
 }
 .willom {
@@ -511,7 +511,7 @@ ul.email li i {
      font-size: 60px;
      opacity: 1;
      top: 50%;
-    
+
      z-index: 999;
      border-radius: 10px;
 }
@@ -549,7 +549,7 @@ ul.email li i {
 
 
 .about_img figure img {
-    transition: ease-in all 0.5s; 
+    transition: ease-in all 0.5s;
     border-radius: 5px;
 }
 
@@ -623,7 +623,7 @@ ul.email li i {
 }
 
 .services_box_main .read_more {
-    margin: 0 auto; 
+    margin: 0 auto;
     display: block;
 }
 
@@ -673,10 +673,10 @@ ul.email li i {
 }
 
 .custom p {
-   
+
     line-height: 30px;
     padding: 30px 0px;
-    
+
 }
 
 #myCarousel .carousel-indicators {
@@ -716,7 +716,7 @@ ul.email li i {
 
 
 .choose {
-    background: url(../images/chose.jpg);
+    background: url(../../assets/imgs/chose.jpg);
     height: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -954,7 +954,7 @@ ul.menu_footer li a:hover {
     padding: 0 15px;
     border: #fff solid 2px;
     margin-bottom: 20px;
-   
+
 }
 
 .subsci_btn {
@@ -1085,4 +1085,4 @@ ul.social_icon li a i:hover {
     margin-top: 0;
 }
 
-.about_page .about, .service_page .services, .blog_page .news {padding-bottom: 90px;} 
+.about_page .about, .service_page .services, .blog_page .news {padding-bottom: 90px;}
