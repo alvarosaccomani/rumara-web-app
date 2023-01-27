@@ -716,7 +716,11 @@ ul.email li i {
 
 
 .choose {
+<<<<<<< HEAD
     background: url(../../assets/imgs/chose.jpg);
+=======
+    background: url(../assets/imgs/chose.jpg);
+>>>>>>> f20e36e26a4c319302076162ffc63e7964289570
     height: 100%;
     background-repeat: no-repeat;
     background-position: center;
