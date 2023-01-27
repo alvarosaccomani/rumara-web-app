@@ -10,6 +10,7 @@ import { AboutComponent } from './components/about/about.component';
 import { ServicesComponent } from './components/services/services.component';
 import { CustomersComponent } from './components/customers/customers.component';
 import { ChooseComponent } from './components/choose/choose.component';
+import { NewsComponent } from './components/news/news.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ChooseComponent } from './components/choose/choose.component';
     AboutComponent,
     ServicesComponent,
     CustomersComponent,
-    ChooseComponent
+    ChooseComponent,
+    NewsComponent
   ],
   imports: [
     BrowserModule,
