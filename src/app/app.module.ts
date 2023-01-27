@@ -9,6 +9,7 @@ import { SliderMainComponent } from './components/slider-main/slider-main.compon
 import { AboutComponent } from './components/about/about.component';
 import { ServicesComponent } from './components/services/services.component';
 import { CustomersComponent } from './components/customers/customers.component';
+import { ChooseComponent } from './components/choose/choose.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CustomersComponent } from './components/customers/customers.component';
     SliderMainComponent,
     AboutComponent,
     ServicesComponent,
-    CustomersComponent
+    CustomersComponent,
+    ChooseComponent
   ],
   imports: [
     BrowserModule,
