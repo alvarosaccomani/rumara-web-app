@@ -46,7 +46,7 @@ $(function () {
     });
   });
 
-  /* Product slider
+  /* Product slider 
   -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
   // optional
   $('#blogCarousel').carousel({
