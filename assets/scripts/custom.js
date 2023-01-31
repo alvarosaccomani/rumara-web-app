@@ -10,6 +10,7 @@ $(function () {
   -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
 
   setTimeout(function () {
+    debugger;
     $('.loader_bg').fadeToggle();
   }, 1500);
 
@@ -46,7 +47,7 @@ $(function () {
     });
   });
 
-  /* Product slider 
+  /* Product slider
   -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
   // optional
   $('#blogCarousel').carousel({
