@@ -10,7 +10,6 @@ $(function () {
   -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
 
   setTimeout(function () {
-    debugger;
     $('.loader_bg').fadeToggle();
   }, 1500);
 
